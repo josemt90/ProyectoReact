@@ -5,8 +5,11 @@ export const PrimerComponente = () => {
    // let nombre = "Jose";
     let web = "josemedinat.com";
 
+    //Este es el useState de nombre
     const [nombre, setNombre] = useState("Jose");
 
+
+   // Esta funcion cambia el nombre del parrafo
     const cambiarNombre = (nuevoNombre) => {
         setNombre(nuevoNombre)
     }
